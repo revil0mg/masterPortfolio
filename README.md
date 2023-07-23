@@ -1,4 +1,3 @@
-Cloned from https://github.com/ashutosh1919/masterPortfolio
 <p align="center"> 
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
