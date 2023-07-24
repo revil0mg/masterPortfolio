@@ -67,22 +67,22 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                <div className="blogsite-btn-div">
+                {/* <div className="blogsite-btn-div">
                   <Button
                     text="Visit My Blogsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="blog-heading-img-div">
-                {/* <img
+              {/* <div className="blog-heading-img-div"> */}
+              {/* <img
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <BlogsImg theme={theme} />
-              </div>
+              {/* <BlogsImg theme={theme} /> */}
+              {/* </div> */}
             </div>
           </Fade>
           <Fade bottom duration={1000} distance="40px">
