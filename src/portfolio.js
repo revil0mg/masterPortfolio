@@ -32,13 +32,17 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/revil0mg",
-  // linkedin: "https://www.linkedin.com/in/oliver-martinez-8409b0127/",
-  // gmail: "oliver.mtz.g@gmail.com",
+  // github: "https://github.com/ashutosh1919",
+  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+  // gmail: "ashutoshhathidara98@gmail.com",
+  // gitlab: "https://gitlab.com/ashutoshhathidara98",
+  // facebook: "https://www.facebook.com/laymanbrother.19/",
+  // twitter: "https://twitter.com/ashutosh_1919",
+  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
-    link: "https://github.com/revil0mg",
+    link: "https://github.com/revil0mg/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -56,7 +60,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "oliver.mtz.g@gmail.com",
+    link: "mailto:oliver.mtz.g@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
