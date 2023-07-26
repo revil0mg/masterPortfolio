@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Oliver's Portfolio",
   description:
-    "A passionate individual who loves KEVIN GODINA and always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
+    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
   og: {
     title: "Oliver Martinez Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OliverMartinez",
   nickname: "Oli",
   subTitle:
-    "A passionate individual who loves KEVIN GODINA and always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
+    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
   resumeLink:
     "https://drive.google.com/file/d/1uSMvfU5Z7nndFiB2IK7K57ieCS6vrHhx/view?usp=drive_link",
   portfolio_repository: "https://github.com/revil0mg/masterPortfolio",
@@ -135,9 +135,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using Angular 12+",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website front end using Angular 12+ & Typescript",
+        "⚡ Developing responsive web applications using Typescript, ",
+        "⚡ Creating application backend in Node, .NET,",
       ],
       softwareSkills: [
         {
@@ -217,7 +217,7 @@ const skills = {
       title: "Unity Development",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on Azure cloud platform",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
@@ -401,7 +401,7 @@ const degrees = {
       descriptions: [
         "🟢 I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
         "🟢 HCI, Info Retrival & Visualization,", //TODO
-        "🟢 Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in VR.",
+        "🟢 Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in Embodied Conversational Agents.",
       ],
       website_link: "https://www.utep.edu/",
     },
@@ -600,13 +600,13 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
+          title: "Volunteer Kennel Helper",
           company: "Pet Guardian Angel",
           company_url: "https://petguardianangelelpaso.org/",
-          logo_path: "google_logo.png",
+          logo_path: "pet_guardian_angel_logo.png",
           duration: "July 2011",
           location: "El Paso, TX",
-          description: "Helped with daily cleaning",
+          description: "Helped with daily Kennel cleaning 3 hours a day",
           color: "#4285F4",
         },
         // {
@@ -668,7 +668,7 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
+  title: "Publication",
   description: "I have worked on a research paper with my research group.",
   avatar_image_path: "projects_image.svg",
 };
