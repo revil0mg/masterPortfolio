@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Oliver's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who loves KEVIN GODINA and always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
   og: {
     title: "Oliver Martinez Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OliverMartinez",
   nickname: "Oli",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate individual who loves KEVIN GODINA and always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
   resumeLink:
     "https://drive.google.com/file/d/1uSMvfU5Z7nndFiB2IK7K57ieCS6vrHhx/view?usp=drive_link",
   portfolio_repository: "https://github.com/revil0mg/masterPortfolio",
@@ -83,7 +83,7 @@ const socialMediaLinks = [
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
 ];
-
+//TODO
 const skills = {
   data: [
     {
@@ -135,7 +135,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
+        "⚡ Building responsive website front end using Angular 12+",
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
         "⚡ Creating application backend in Node, Express & Flask",
       ],
@@ -214,7 +214,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Unity Development",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -281,45 +281,45 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -381,27 +381,27 @@ const degrees = {
   degrees: [
     {
       title: "University of Texas at El Paso",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
+      subtitle: "B.S. in Computer Science",
+      logo_path: "utep_orange_background_logo.png",
       alt_name: "UTEP",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic software engineering subjects such as DS, Algorithms, DBMS, OS, SE methodologies, etc.",
+        "⚡ Apart from this, I have completed courses on Computer Vision, Data Science, Web Security and Full Stack Development.",
+        "⚡ During my time here, I also obtained a minor in Mathematics.",
       ],
       website_link: "https://utep.edu",
     },
     {
       title: "University of Texas at El Paso",
       subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
+      logo_path: "utep_blue_background_logo.png",
       alt_name: "UTEP",
       duration: "2018 - 2020",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "🟢 I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
+        "🟢 HCI, Info Retrival & Visualization,", //TODO
+        "🟢 Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in VR.",
       ],
       website_link: "https://www.utep.edu/",
     },
@@ -412,30 +412,30 @@ const certifications = {
   certifications: [
     {
       title: "CompTIA A+",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
+      subtitle: "Sep 2013",
+      logo_path: "ComTIA_A_logo.jpg",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
+      alt_name: "CompTIA A+",
       color_code: "#8C151599",
     },
     {
       title: "CompTIA Network+",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
+      subtitle: "May 2014",
+      logo_path: "ComTIA_Network_logo.jpg",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+      alt_name: "compTIA Net+",
+      color_code: "#8C151599",
     },
     {
-      title: "Flash CS4",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      title: "Adobe Flash CS4",
+      subtitle: "May 2012",
+      logo_path: "Adobe_Flash_CS4_logo.png",
+      // certificate_link:
+      //   "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
+      alt_name: "Adobe FL",
+      color_code: "#8C151599",
     },
     // {
     //   title: "Data Science",
@@ -663,7 +663,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of a vast variety of the latest technology tools. My best experience is to create full-stack projects and deploy them as web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -722,7 +722,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "Martinez_Oliver_Picture.jpg",
     description:
       "You can message me, I will reply within 24 hours. I can help you with C#, .NET, Unity, or anything else about me.",
   },
@@ -736,7 +736,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle: "15509 Blaeu Dr El Paso TX, 79938",
-    locality: "Kanodar",
+    locality: "United States",
     country: "US",
     region: "Texas",
     postalCode: "79938",
