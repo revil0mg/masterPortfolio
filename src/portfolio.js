@@ -535,13 +535,13 @@ const experience = {
       experiences: [
         {
           title: "Graduate UX Research Assistant",
-          company: "Interactive Systems Group",
+          company: "Interactive Systems Group (ISG)",
           company_url: "https://isg.cs.utep.edu/index.html/",
           logo_path: "legato_logo.png",
           duration: "Jan 2017 - May 2020",
           location: "El Paso, TX",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I primarily handled the testing, maintenece, deployment phases of most projects, whether that was for research experiments or showcasing our research to others. ",
           color: "#0879bf",
         },
         {
@@ -552,7 +552,7 @@ const experience = {
           duration: "Oct 2015 - May 2019",
           location: "El Paso, TX",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I started by learning C# and Unity Engine from scratch here. I was then tasked along with my peers to create a Unity game and we were each assigned a scene. Upon completion and demonstrating prowess, I was promoted to Vice President to help the next group of newcomers learn and create as I did. ",
           color: "#9b1578",
         },
       ],
@@ -738,15 +738,15 @@ const contactPageData = {
     // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "15509 Blaeu Dr El Paso TX, 79938",
+    title: "Current Location",
+    subtitle: "El Paso TX, 79938",
     locality: "United States",
     country: "US",
     region: "Texas",
     postalCode: "79938",
-    streetAddress: "15509 Blaeu Dr",
+    streetAddress: "N/A",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/q1fTwRNUCSHotugF7",
+    location_map_link: "https://goo.gl/maps/5MTmQVCFVGAtXAyDA",
   },
   phoneSection: {
     title: "(915) 637-7427",
