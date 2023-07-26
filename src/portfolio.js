@@ -83,21 +83,180 @@ const socialMediaLinks = [
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
 ];
-//TODO
+//TODO: Add Visual studio + code, Fuse,
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Full Stack Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive website front end specializing Angular 12+ & Typescript",
+        "⚡ Developing responsive web applications using Typescript, ",
+        "⚡ Creating application backend in Node, .NET,",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#ffffff",
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
+          style: {
+            backgroundColor: "#ffffff",
+            color: "#DB3837",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        },
+        {
+          skillName: "VS Code",
+          fontAwesomeClassname: "simple-icons:vscode",
+          style: {
+            color: "#663399",
+          },
+        },
+        // {
+        //   skillName: "Flutter",
+        //   fontAwesomeClassname: "simple-icons:flutter",
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
+      ],
+    },
+    {
+      title: "Cloud Infra-Architecture",
+      fileName: "CloudInfraImg",
+      skills: [
+        "⚡ Experience working on Azure cloud platform",
+        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Setting up streaming jobs from DB to Server or vice-versa on Azure",
+      ],
+      softwareSkills: [
+        {
+          skillName: "GCP",
+          fontAwesomeClassname: "simple-icons:googlecloud",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Microsoft Access",
+          fontAwesomeClassname: "simple-icons:microsoftaccess",
+          style: {
+            color: "#47A248",
+          },
+        },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#47A248",
+        //   },
+        // },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "simple-icons:kubernetes",
+          style: {
+            color: "#326CE5",
+          },
+        },
+      ],
+    },
+    {
+      title: "Unity3D Game Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Basic editing skills in images, video, and music",
+        "⚡ Intermediate usage of Microsoft Word, Powerpoint, and Excel",
         "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Unity3D",
+          fontAwesomeClassname: "logos-unity",
           style: {
             backgroundColor: "transparent",
           },
@@ -132,194 +291,72 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Media Editing",
+      fileName: "DesignImg",
       skills: [
-        "⚡ Building responsive website front end using Angular 12+ & Typescript",
-        "⚡ Developing responsive web applications using Typescript, ",
-        "⚡ Creating application backend in Node, .NET,",
+        "⚡ Basic editing skills in images, video, and music. ",
+        "⚡ Intermediate usage of Microsoft Word, Powerpoint, and Excel",
+        "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Audacity",
+          fontAwesomeClassname: "simple-icons:audacity",
           style: {
-            color: "#E34F26",
+            color: "#FF7C00",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Adobe Audition",
+          fontAwesomeClassname: "simple-icons:adobeaudition",
           style: {
-            color: "#1572B6",
+            color: "#00e4bb",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "Gimp",
+          fontAwesomeClassname: "simple-icons:gimp",
           style: {
-            color: "#CC6699",
+            color: "#F24E1E",
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
+            color: "#000000",
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Adobe Premiere",
+          fontAwesomeClassname: "simple-icons:adobepremiere",
           style: {
-            color: "#61DAFB",
+            color: "#FF7C00",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          skillName: "Microsoft Word",
+          fontAwesomeClassname: "simple-icons:microsoftword",
           style: {
-            color: "#339933",
+            color: "#FF7C00",
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Microsoft Powerpoint",
+          fontAwesomeClassname: "simple-icons:microsoftpowerpoint",
           style: {
-            color: "#CB3837",
+            color: "#FF7C00",
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Microsoft Excel",
+          fontAwesomeClassname: "simple-icons:microsoftexcel",
           style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#FF7C00",
           },
         },
       ],
     },
-    {
-      title: "Unity Development",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on Azure cloud platform",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    // {
-    //   title: "UI/UX Design",
-    //   fileName: "DesignImg",
-    //   skills: [
-    //     "⚡ Designing highly attractive user interface for mobile and web applications",
-    //     "⚡ Customizing logo designs and building logos from scratch",
-    //     "⚡ Creating the flow of application functionalities to optimize user experience",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "Adobe XD",
-    //       fontAwesomeClassname: "simple-icons:adobexd",
-    //       style: {
-    //         color: "#FF2BC2",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Figma",
-    //       fontAwesomeClassname: "simple-icons:figma",
-    //       style: {
-    //         color: "#F24E1E",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Adobe Illustrator",
-    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
-    //       style: {
-    //         color: "#FF7C00",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Inkscape",
-    //       fontAwesomeClassname: "simple-icons:inkscape",
-    //       style: {
-    //         color: "#000000",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -386,7 +423,7 @@ const degrees = {
       alt_name: "UTEP",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects such as DS, Algorithms, DBMS, OS, SE methodologies, etc.",
+        "⚡ I have studied basic software engineering subjects such as DS, Algorithms, DBMS, OS, SE methodologies, etc. primarily in Java",
         "⚡ Apart from this, I have completed courses on Computer Vision, Data Science, Secure Web-based Systems, Full Stack Development, and more",
         "⚡ During my time here, I also obtained a minor in Mathematics.",
       ],
@@ -524,9 +561,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organizing events and that is why I am also involved with many open source communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -541,7 +578,7 @@ const experience = {
           duration: "Jan 2017 - May 2020",
           location: "El Paso, TX",
           description:
-            "I primarily handled the testing, maintenece, deployment phases of most projects, whether that was for research experiments or showcasing our research to others. ",
+            "I primarily handled the testing, maintenece, deployment phases of most projects, whether that was for research experiments or showcasing our research to others in Virtual Reality. I also trained a ML algorithm to recognize human gestures in real time and integrated that feature into the main multi-modal program.  ",
           color: "#0879bf",
         },
         {
@@ -552,7 +589,7 @@ const experience = {
           duration: "Oct 2015 - May 2019",
           location: "El Paso, TX",
           description:
-            "I started by learning C# and Unity Engine from scratch here. I was then tasked along with my peers to create a Unity game and we were each assigned a scene. Upon completion and demonstrating prowess, I was promoted to Vice President to help the next group of newcomers learn and create as I did. ",
+            "I started by learning C# and Unity 3D Engine from scratch here. I was then tasked along with my peers to create a Unity game and we were each assigned a scene. Upon completion and demonstrating prowess, I was promoted to Vice President to help the next group of newcomers learn and create as I did. ",
           color: "#9b1578",
         },
       ],
@@ -728,7 +765,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "Martinez_Oliver_Picture.jpg",
     description:
-      "You can message me, I will reply within 24 hours. I can help you with C#, .NET, Unity, or anything else about me.",
+      "You can message me, I will reply within 24 hours. I can help you with C#, .NET, Unity3D, or anything else about me.",
   },
   blogSection: {
     // title: "Blogs",
