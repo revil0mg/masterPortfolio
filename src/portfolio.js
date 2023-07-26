@@ -387,7 +387,7 @@ const degrees = {
       duration: "2014 - 2018",
       descriptions: [
         "⚡ I have studied basic software engineering subjects such as DS, Algorithms, DBMS, OS, SE methodologies, etc.",
-        "⚡ Apart from this, I have completed courses on Computer Vision, Data Science, Web Security and Full Stack Development.",
+        "⚡ Apart from this, I have completed courses on Computer Vision, Data Science, Secure Web-based Systems, Full Stack Development, and more",
         "⚡ During my time here, I also obtained a minor in Mathematics.",
       ],
       website_link: "https://utep.edu",
@@ -399,9 +399,9 @@ const degrees = {
       alt_name: "UTEP",
       duration: "2018 - 2020",
       descriptions: [
-        "🟢 I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
-        "🟢 HCI, Info Retrival & Visualization,", //TODO
-        "🟢 Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in Embodied Conversational Agents.",
+        "⚡ I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
+        "⚡ Other courses taken include Human-Computer Interaction, Information Retrival & Visualization, Advanced Computational Methods, Mobile Game Development, and more",
+        "⚡ Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in Embodied Conversational Agents.",
       ],
       website_link: "https://www.utep.edu/",
     },
@@ -606,7 +606,8 @@ const experience = {
           logo_path: "pet_guardian_angel_logo.png",
           duration: "July 2011",
           location: "El Paso, TX",
-          description: "Helped with daily Kennel cleaning 3 hours a day",
+          description:
+            "Helped with daily kennel and room cleaning 3 hours a day",
           color: "#4285F4",
         },
         // {
@@ -658,7 +659,9 @@ const experience = {
     },
   ],
 };
-
+//TODO: Add Hobbies Page, Listen to music w/ Summermelody & other favorites, primarily listen to EDM and standouts from other genres
+//TODO: Hobbies - Play and workout in VR with Beat Saber and VR Boxing
+//TODO: Hobbies - Play video games, usually party games such as Mario Party, Spelunky 2, Smash Brothers,
 // Projects Page
 const projectsHeader = {
   title: "Projects",
