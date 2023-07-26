@@ -682,7 +682,8 @@ const publications = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Usability of the Virtual Agent Interaction Framework",
       createdAt: "2020-06",
-      description: "Paper Written on Human Computer Interaction ",
+      description:
+        "Paper Written on Human Computer Interaction comparing the usability of Virtual Agent Interaction Framework (VAIF) and Virtual Human Toolkit. ",
       url:
         "https://www.researchgate.net/publication/342835262_Usability_of_the_Virtual_Agent_Interaction_Framework",
     },
