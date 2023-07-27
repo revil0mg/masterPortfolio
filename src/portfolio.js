@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "OliverMartinez",
   nickname: "Oli",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create an impact.",
+    "A passionate individual who always thrives to work on end-to-end products, to develop sustainable, scalable, social, and technical systems to create an impact.",
   resumeLink:
     "https://drive.google.com/file/d/1uSMvfU5Z7nndFiB2IK7K57ieCS6vrHhx/view?usp=drive_link",
   portfolio_repository: "https://github.com/revil0mg/masterPortfolio",
@@ -32,13 +32,6 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
@@ -418,30 +411,32 @@ const degrees = {
   degrees: [
     {
       title: "University of Texas at El Paso",
+      subtitle: "M.S. in Software Engineering",
+      logo_path: "utep_blue_background_logo.png",
+      alt_name: "UTEP",
+      duration: "2018 - 2020", 
+      //gpa: "GPA: 3.50", //TODO: fix position when in small screen
+      descriptions: [
+        "⚡ I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
+        "⚡ Other courses taken include Human-Computer Interaction, Information Retrival & Visualization, Advanced Computational Methods, Mobile App Development, and more",
+        "⚡ Apart from this, I have also done a research assistantship. As a part of it, I have created new reseach projects in a subset of HCI primarily focused in Embodied Conversational Agents.",
+      ],
+      website_link: "https://www.utep.edu/",
+    },
+    {
+      title: "University of Texas at El Paso",
       subtitle: "B.S. in Computer Science",
       logo_path: "utep_orange_background_logo.png",
       alt_name: "UTEP",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects such as DS, Algorithms, DBMS, OS, SE methodologies, etc. primarily in Java",
+        "⚡ I have studied basic software engineering subjects such as Data Structures, Algorithms, Database Management Systems, Operating Systems, SE methodologies, etc. primarily in Java",
         "⚡ Apart from this, I have completed courses on Computer Vision, Data Science, Secure Web-based Systems, Full Stack Development, and more",
-        "⚡ During my time here, I also obtained a minor in Mathematics.",
+        "⚡ During my time here, I also obtained a minor in Mathematics which involved completing courses in Matrix Algerbra, Calculus, Statistics, Discrete Math, and Numerical Analysis.",
       ],
       website_link: "https://utep.edu",
     },
-    {
-      title: "University of Texas at El Paso",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "utep_blue_background_logo.png",
-      alt_name: "UTEP",
-      duration: "2018 - 2020",
-      descriptions: [
-        "⚡ I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
-        "⚡ Other courses taken include Human-Computer Interaction, Information Retrival & Visualization, Advanced Computational Methods, Mobile Game Development, and more",
-        "⚡ Apart from this, I have also done a research assistantship.  As part of it, I have creted new reseach projects in a subset of HCI primarily focused in Embodied Conversational Agents.",
-      ],
-      website_link: "https://www.utep.edu/",
-    },
+
   ],
 };
 
@@ -573,8 +568,8 @@ const experience = {
         {
           title: "Graduate UX Research Assistant",
           company: "Interactive Systems Group (ISG)",
-          company_url: "https://isg.cs.utep.edu/index.html/",
-          logo_path: "legato_logo.png",
+          company_url: "https://isg.cs.utep.edu/",
+          logo_path: "legato_logo.png", //TODO: Add ISG logo (non white)
           duration: "Jan 2017 - May 2020",
           location: "El Paso, TX",
           description:
@@ -585,7 +580,7 @@ const experience = {
           title: "Vice President",
           company: "Game Builders! ISG Subsidiary Organization",
           company_url: "https://isg.cs.utep.edu/gamebuilders.html",
-          logo_path: "muffito_logo.png",
+          logo_path: "muffito_logo.png", //TODO: Add GameBuilders! logo
           duration: "Oct 2015 - May 2019",
           location: "El Paso, TX",
           description:

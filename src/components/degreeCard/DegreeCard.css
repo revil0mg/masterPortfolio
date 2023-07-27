@@ -55,6 +55,14 @@
   float: right;
 }
 
+.card-gpa {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  /* color: #212121; */
+  padding-right: 10px;
+  float: left;
+}
+
 .body-content {
   max-width: inherit;
   /* width: 100%; */
@@ -125,6 +133,18 @@
   }
 
   .duration {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+  }
+  
+  .body-header-gpa {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .gpa {
     padding: 0px;
     margin: 0px;
     float: left;

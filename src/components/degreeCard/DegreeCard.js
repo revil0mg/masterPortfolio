@@ -44,6 +44,9 @@ class DegreeCard extends Component {
                 <h3 className="duration" style={{ color: theme.text }}>
                   {degree.duration}
                 </h3>
+                <h3 className="card-gpa" style={{ color: theme.text }}>
+                  {degree.gpa}
+                </h3>
               </div>
             </div>
             <div className="body-content">
