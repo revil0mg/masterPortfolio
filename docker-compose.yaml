@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   sample:
-    container_name: portfolio
+    container_name: portfoliotest
     build:
       context: .
       dockerfile: Dockerfile
