@@ -212,7 +212,7 @@ const skills = {
           skillName: "Microsoft Access",
           fontAwesomeClassname: "simple-icons:microsoftaccess",
           style: {
-            color: "#47A248",
+            color: "#b02031",
           },
         },
         // {
@@ -310,42 +310,42 @@ const skills = {
           skillName: "Gimp",
           fontAwesomeClassname: "simple-icons:gimp",
           style: {
-            color: "#F24E1E",
+            color: "#7a715b",
           },
         },
         {
           skillName: "Adobe Photoshop",
           fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
-            color: "#000000",
+            color: "#00a4e4",
           },
         },
         {
           skillName: "Adobe Premiere",
           fontAwesomeClassname: "simple-icons:adobepremiere",
           style: {
-            color: "#FF7C00",
+            color: "#ea77ff",
           },
         },
         {
           skillName: "Microsoft Word",
           fontAwesomeClassname: "simple-icons:microsoftword",
           style: {
-            color: "#FF7C00",
+            color: "#0087be",
           },
         },
         {
           skillName: "Microsoft Powerpoint",
           fontAwesomeClassname: "simple-icons:microsoftpowerpoint",
           style: {
-            color: "#FF7C00",
+            color: "#f65314",
           },
         },
         {
           skillName: "Microsoft Excel",
           fontAwesomeClassname: "simple-icons:microsoftexcel",
           style: {
-            color: "#FF7C00",
+            color: "#7cbb00",
           },
         },
       ],
@@ -414,7 +414,7 @@ const degrees = {
       subtitle: "M.S. in Software Engineering",
       logo_path: "utep_blue_background_logo.png",
       alt_name: "UTEP",
-      duration: "2018 - 2020", 
+      duration: "2018 - 2020",
       //gpa: "GPA: 3.50", //TODO: fix position when in small screen
       descriptions: [
         "⚡ I have taken a varity of courses focused in Software Engineering which correspond to Construction, Project Management, Architecture, Design, Integration, Validation & Verification. ",
@@ -436,7 +436,6 @@ const degrees = {
       ],
       website_link: "https://utep.edu",
     },
-
   ],
 };
 
