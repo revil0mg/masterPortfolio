@@ -76,7 +76,7 @@ const socialMediaLinks = [
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
 ];
-//TODO: Add Visual studio + code, Fuse,
+
 const skills = {
   data: [
     {
@@ -162,10 +162,27 @@ const skills = {
           },
         },
         {
-          skillName: "VS Code",
-          fontAwesomeClassname: "simple-icons:vscode",
+          skillName: "Visual Studio Code",
+          imageSrc: "vscode_logo.png",
+        },
+        {
+          skillName: "C#",
+          imageSrc: "c_sharp_logo.png",
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#663399",
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            backgroundColor: "transparent",
+            color: "#ff0000",
           },
         },
         // {
@@ -255,36 +272,17 @@ const skills = {
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
+          skillName: "Visual Studio",
+          imageSrc: "visual_studio_logo.png",
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Mixamo Fuse",
+          imageSrc: "mixamo_fuse_logo.png",
         },
       ],
     },
     {
-      title: "Media Editing",
+      title: "Additional Computer Skills",
       fileName: "DesignImg",
       skills: [
         "⚡ Basic editing skills in images, video, and music. ",
