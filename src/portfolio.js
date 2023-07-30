@@ -259,6 +259,7 @@ const skills = {
       title: "Unity3D Game Development",
       fileName: "DataScienceImg",
       skills: [
+        //TODO: Elaborate
         "⚡ Build multi-modal interactions",
         "⚡ Virtual Reality Experience",
         "⚡ Dialogue branching",
@@ -285,7 +286,7 @@ const skills = {
       title: "Additional Computer Skills",
       fileName: "DesignImg",
       skills: [
-        "⚡ Basic editing skills in images, video, and music. ",
+        "⚡ Basic editing skills in images, video, and music ",
         "⚡ Intermediate usage of Microsoft Word, Powerpoint, and Excel",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
@@ -567,7 +568,7 @@ const experience = {
           title: "Graduate UX Research Assistant",
           company: "Interactive Systems Group (ISG)",
           company_url: "https://isg.cs.utep.edu/",
-          logo_path: "legato_logo.png", //TODO: Add ISG logo (non white)
+          logo_path: "isg_dark_logo.png", //TODO: Add ISG logo (non white)
           duration: "Jan 2017 - May 2020",
           location: "El Paso, TX",
           description:
@@ -578,7 +579,7 @@ const experience = {
           title: "Vice President",
           company: "Game Builders! ISG Subsidiary Organization",
           company_url: "https://isg.cs.utep.edu/gamebuilders.html",
-          logo_path: "muffito_logo.png", //TODO: Add GameBuilders! logo
+          logo_path: "isg_dark_logo.png", //TODO: Add GameBuilders! logo
           duration: "Oct 2015 - May 2019",
           location: "El Paso, TX",
           description:
