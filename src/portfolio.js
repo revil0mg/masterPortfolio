@@ -83,9 +83,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end specializing Angular 12+ & Typescript",
+        "⚡ Building responsive website front end specializing Angular 12+ & Typescript", //TODO Seperate 1st & second bullet
         "⚡ Developing responsive web applications using Typescript, ",
-        "⚡ Creating application backend in Node, .NET,",
+        "⚡ Creating application backend in Node, .NET, Java, and/or Python.",
       ],
       softwareSkills: [
         {
@@ -259,9 +259,9 @@ const skills = {
       title: "Unity3D Game Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Basic editing skills in images, video, and music",
-        "⚡ Intermediate usage of Microsoft Word, Powerpoint, and Excel",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Build multi-modal interactions",
+        "⚡ Virtual Reality Experience",
+        "⚡ Dialogue branching",
       ],
       softwareSkills: [
         {
@@ -554,6 +554,7 @@ const certifications = {
 const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
+  //TODO: Change Description
   description:
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organizing events and that is why I am also involved with many open source communities as a representative.",
   header_image_path: "experience.svg",
@@ -718,30 +719,6 @@ const publications = {
     },
     // {
     //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
     //   name: "Artificial Intelligence Paper",
     //   createdAt: "2020-03-06T16:26:54Z",
     //   description: "Paper Written on Artificial Intelligence published in xyz ",
