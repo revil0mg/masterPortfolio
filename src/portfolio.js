@@ -168,6 +168,14 @@ const skills = {
             color: "#ff0000",
           },
         },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:spring",
+          style: {
+            backgroundColor: "transparent",
+            color: "#33aa33",
+          },
+        },
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
