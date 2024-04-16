@@ -458,6 +458,24 @@ const certifications = {
       alt_name: "Adobe FL",
       color_code: "#8C151599",
     },
+    {
+      title: "Google Technical Support Fundamentals",
+      subtitle: "May 2024",
+      logo_path: "google_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/F7EEC2BBDW3U",
+      alt_name: "Google",
+      color_code: "#1F70C199",
+    },
+    {
+      title: "Introduction to Technical Support",
+      subtitle: "April 2024",
+      logo_path: "ibm_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/verify/SSG4W5U876CX",
+      alt_name: "IBM",
+      color_code: "#D83B0199",
+    },
   ],
 };
 
